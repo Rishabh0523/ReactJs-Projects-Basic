@@ -7,6 +7,7 @@ import { FaMoon, FaSun } from 'react-icons/fa';
   const SwitchIcon = useColorModeValue(FaMoon, FaSun);
 
   return (
+   
     <IconButton
       variant="ghost"
       color="current"
@@ -18,6 +19,7 @@ import { FaMoon, FaSun } from 'react-icons/fa';
       icon={<SwitchIcon />}
       {...props}
     />
+
   );
 };
 
