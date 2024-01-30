@@ -9,7 +9,7 @@ const Footer = () => {
 
   <VStack alignItems={'stretch'} w={'full'} px={'4'}>
     <Heading size="md" textTransform={'uppercase'} textAlign={['center','left']}>
-        Click to know more About Me
+        Click to know More About Me
     </Heading>
 
     <HStack 
@@ -23,7 +23,6 @@ const Footer = () => {
     outline={'none'}
     focusBorderColor='none'    
     />
-
 
         <Button 
         p={"0"}
